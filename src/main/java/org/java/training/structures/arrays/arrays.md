@@ -36,7 +36,22 @@ involves multiplying the index by the element size before adding to the array ad
 
 Arrays directly represent vectors and matrices, so they are of direct use in computations associated with many basic problems 
 in science and engineering. Arrays also provide a succinct notation for manipulating a potentially huge amount of data in 
-a uniform way, so they play a critical role in any application that involves processing large amounts of data.  
+a uniform way, so they play a critical role in any application that involves processing large amounts of data.
+
+## Using Arrays
+
+The application example attached is an application that stores a sequence of high score entries for a video game in an 
+array. We consider an object representing a high score entry, `GameEntry`, and a class to maintain a sequence of high scores, 
+`ScoreBoard`. 
+The high score class represents the score itself and the name of the person earning this score, while the scoreboard is 
+limited to a certain number of high scores that can be saved. Once that limit is reached, a new score only qualifies for 
+the scoreboard if it is strictly higher than the lowest "high score" on the board.
 
 
+## References
+
+The concepts and examples considered in this section are from the following books : 
+
+- [Data and Structures in Java](https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Java%2C+6th+Edition-p-9781118771334)
+- [Introduction to Programming in Java - An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/)
 
