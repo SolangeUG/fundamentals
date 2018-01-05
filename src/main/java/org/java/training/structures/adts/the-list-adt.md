@@ -26,3 +26,14 @@ filed definitions. This will make it easier to swap implementing types depending
 At times it is more appropriate to use an `ArrayList` than a `LinkedList`, and vice versa. The use case for which of the list 
 implementations to use will vary, but make sure you think it through, because it can have serious implications on your 
 application's performance, or its memory usage.  
+
+## Iterators
+
+An **iterator** is a software design pattern that abstracts the process of scanning through a sequence of elements, one 
+element at a time. In order to unify the treatment and syntax for iterating objects in a way that is independent from a 
+specific organization, Java defines the `java.util.Iterator` interface with the following two methods :
+
+|   Method      |   Description   |
+|--------------:|-----------------|
+| `hasNext()`   |   Returns `true` if there is at least one additional element int the sequence, and `false` otherwise. |
+| `next()`      |   Returns the next element in the sequence. |
