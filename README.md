@@ -18,6 +18,12 @@
 
 ## Resources
 
+- [Algorithms](https://algs4.cs.princeton.edu/home/)
+- [Data and Structures in Java](https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Java%2C+6th+Edition-p-9781118771334)
+- [Introduction to Programming in Java - An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/)
+- [Java Programming Interviews Exposed](https://www.wiley.com/en-be/Java+Programming+Interviews+Exposed-p-9781118722886)
+
+
 
 
 

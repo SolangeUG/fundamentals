@@ -46,12 +46,3 @@ array. We consider an object representing a high score entry, `GameEntry`, and a
 The high score class represents the score itself and the name of the person earning this score, while the scoreboard is 
 limited to a certain number of high scores that can be saved. Once that limit is reached, a new score only qualifies for 
 the scoreboard if it is strictly higher than the lowest "high score" on the board.
-
-
-## References
-
-The concepts and examples considered in this section are from the following books : 
-
-- [Data and Structures in Java](https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Java%2C+6th+Edition-p-9781118771334)
-- [Introduction to Programming in Java - An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/)
-
