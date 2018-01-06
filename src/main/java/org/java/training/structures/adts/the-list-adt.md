@@ -36,4 +36,16 @@ specific organization, Java defines the `java.util.Iterator` interface with the 
 |   Method      |   Description   |
 |--------------:|-----------------|
 | `hasNext()`   |   Returns `true` if there is at least one additional element int the sequence, and `false` otherwise. |
-| `next()`      |   Returns the next element in the sequence. |
+| `next()`      |   Returns the next element in the sequence. <sup>2</sup>|
+
+><sup>2</sup> If the `next()` method is called when no further elements are available, a `NoSuchElementException` is thrown.
+
+A single iterator instance supports only one pass through a collection; calls to `next()` can be made until all elements 
+have been reported, but there is no way to "reset" the iterator back to the beginning of the sequence.
+To provide greater standardization, Java defines another parameterized interface, named `Iterable` that includes the single 
+method `iterator()`, which returns an iterator of the elements in the collection.
+
+An instance of a typical collection class in Java, such as an `ArrayList` is **iterable** (but not itself an **iterator**); 
+it produces an iterator for its collection as the return value of the `iterator()` method.
+Each call to `iterator()` returns a new iterator instance, thereby allowing multiple (even simultaneous) traversals of a 
+collection. Java's `Iterable` class also plays a fundamental role in support of the "for-each" loop syntax.
