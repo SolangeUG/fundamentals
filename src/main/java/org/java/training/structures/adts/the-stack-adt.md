@@ -18,3 +18,12 @@ Additionally, a stack supports the following accessor methods for convenience :
 | `top()`       |   Returns the top element of the stack, without removing it (or `null` if the stack is empty). |
 | `size()`      |   Returns the number of elements in the stack. |
 | `isEmpty()`   |   Returns a boolean indicating whether the stack is empty. |
+
+## Examples of application
+
+Internet web browsers store the addresses of recently visited sites on a stack. Each time a user visits a new site, that 
+site is "pushed" onto the stack of addresses. The browser then allows the user to "pop" back to previously visited sites 
+using the "back" button.
+
+Text editors usually provide an "undo" mechanism that cancels recent editing operations and reverts to former states of
+a document. This undo operation can be accomplished by keeping text changes in a stack.
